@@ -1,0 +1,2 @@
+./objects/led.o: LED.c LED.h Register_Map.h Std_Types.h Common_Macros.h \
+  CONFIGURATIONS.h Interrupt.h GPIO.h SystickTimer.h

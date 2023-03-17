@@ -1,0 +1,63 @@
+Dependencies for Project 'LED_Control', Target 'COTS Folder': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\app.c)(0x63CCD27E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/app.o -MD)
+I (CONFIGURATIONS.h)(0x63CB95DA)
+I (Register_Map.h)(0x63CCD9E8)
+I (Std_Types.h)(0x63C6AC03)
+I (Common_Macros.h)(0x63C926A0)
+I (Interrupt.h)(0x63CBC74A)
+I (GPIO.h)(0x63CC094F)
+I (SystickTimer.h)(0x63CCD27E)
+I (LED.h)(0x63CB9B0A)
+F (.\GPIO.c)(0x63CC0A14)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MD)
+I (GPIO.h)(0x63CC094F)
+I (Register_Map.h)(0x63CCD9E8)
+I (Std_Types.h)(0x63C6AC03)
+I (Common_Macros.h)(0x63C926A0)
+I (CONFIGURATIONS.h)(0x63CB95DA)
+I (Interrupt.h)(0x63CBC74A)
+I (SystickTimer.h)(0x63CCD27E)
+F (.\SystickTimer.c)(0x63CCD481)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/systicktimer.o -MD)
+I (Register_Map.h)(0x63CCD9E8)
+I (Std_Types.h)(0x63C6AC03)
+I (Common_Macros.h)(0x63C926A0)
+I (CONFIGURATIONS.h)(0x63CB95DA)
+I (Interrupt.h)(0x63CBC74A)
+I (GPIO.h)(0x63CC094F)
+I (SystickTimer.h)(0x63CCD27E)
+F (.\Interrupt.c)(0x63CCDE30)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/interrupt.o -MD)
+I (Register_Map.h)(0x63CCD9E8)
+I (Std_Types.h)(0x63C6AC03)
+I (Common_Macros.h)(0x63C926A0)
+I (CONFIGURATIONS.h)(0x63CB95DA)
+I (Interrupt.h)(0x63CBC74A)
+I (GPIO.h)(0x63CC094F)
+I (SystickTimer.h)(0x63CCD27E)
+F (.\LED.c)(0x63CB9BB0)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/led.o -MD)
+I (LED.h)(0x63CB9B0A)
+I (Register_Map.h)(0x63CCD9E8)
+I (Std_Types.h)(0x63C6AC03)
+I (Common_Macros.h)(0x63C926A0)
+I (CONFIGURATIONS.h)(0x63CB95DA)
+I (Interrupt.h)(0x63CBC74A)
+I (GPIO.h)(0x63CC094F)
+I (SystickTimer.h)(0x63CCD27E)
+F (.\Std_Types.h)(0x63C6AC03)()
+F (.\Common_Macros.h)(0x63C926A0)()
+F (.\GPIO.h)(0x63CC094F)()
+F (.\SystickTimer.h)(0x63CCD27E)()
+F (.\Interrupt.h)(0x63CBC74A)()
+F (.\Register_Map.h)(0x63CCD9E8)()
+F (.\CONFIGURATIONS.h)(0x63CB95DA)()
+F (.\LED.h)(0x63CB9B0A)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x63CA8C02)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_COTS_Folder-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Mariam PC/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\Mariam PC\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
